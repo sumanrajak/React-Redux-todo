@@ -1,38 +1,67 @@
 .App {
   text-align: center;
+  padding: 20px;
+  display: inline;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login{
+  padding: 200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.rejs{
+
+
+}
+.body{
+
+}
+form {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+label,
+input {
+  /* In order to define widths */
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  width: 30%;
+  /* Positions the label text beside the input */
+  text-align: right;
+}
+
+label+input {
+  width: 30%;
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  margin: 0 30% 0 4%;
+}
+.app_body{
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    height: 90vh;
+    width :90vw;
+
+}
+.list{
+  padding: 10px;
+
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding: 10px;
+  background-color: aqua;
+  margin: 5px;
+  text-align: center;
+}
+.items>button{
+  padding-left: 10px;
+  
 }
